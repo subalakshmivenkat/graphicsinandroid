@@ -1,17 +1,13 @@
 
 # Ex.No:12 Design an application that draws basic graphical primitives on the screen.
 
-
 ## AIM:
-
 To create and design an android application that draws basic graphical primitives on the screen using Android Studio.
 
 ## EQUIPMENTS REQUIRED:
-
 Android Studio(Latest Version)
 
 ## ALGORITHM:
-
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as “graphical″ and click Next. 
@@ -26,7 +22,6 @@ Step 6: Draw basic object details give in MainActivity file.
 
 Step 7: Save and run the application.
 
-
 ## PROGRAM:
 ```
 /*
@@ -35,9 +30,7 @@ Developed by: Ann Blessy Philips
 Registeration Number : 212222040008
 */
 ```
-
 ### In activity_main.xml :
-
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -59,9 +52,7 @@ Registeration Number : 212222040008
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-
 ### In MainActivity.java :
-
 ```
 package com.example.graphics;
 
@@ -75,7 +66,6 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -115,11 +105,8 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-
 ## OUTPUT
-
-![ex-12](https://github.com/AnnBlessy/graphicsinandroid/assets/119477835/7259df3a-c5e5-40b4-aeb5-915ca193f9f8)
-
+![ex-12](https://github.com/AnnBlessy/graphicsinandroid/assets/119477835/7b17ca6a-1cad-4e5e-bc6d-8874d7c33856)
 
 ## RESULT
 Thus a Simple Android Application to create and design an android application that draws basic graphical primitives on the screen using Android Studio is developed and executed successfully.
