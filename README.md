@@ -28,7 +28,7 @@ Developed by: SUBALAKSHMI V
 Registeration Number : 212222040162
 */
 ```
-In activity_layout.xml :
+# activity_layout.xml :
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_height="match_parent"
@@ -40,7 +40,7 @@ In activity_layout.xml :
         android:id="@+id/ImageView"/>
 </RelativeLayout>
 ```
-In MainActivity.java :
+# MainActivity.java :
 ```
 package com.example.ex_10;
 
